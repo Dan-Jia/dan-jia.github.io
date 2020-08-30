@@ -22,16 +22,20 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Mist","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Dan&#39;s room">
-<meta property="og:url" content="http://yoursite.com/archives/2020/08/index.html">
+  <meta name="description" content="Sorry, the page you visited does not exist or has been deleted. You can click here return to the home page.         Homepage">
+<meta property="og:type" content="website">
+<meta property="og:title" content="404 Not Found">
+<meta property="og:url" content="http://yoursite.com/404.html">
 <meta property="og:site_name" content="Dan&#39;s room">
+<meta property="og:description" content="Sorry, the page you visited does not exist or has been deleted. You can click here return to the home page.         Homepage">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2019-09-22T08:41:27.000Z">
+<meta property="article:modified_time" content="2020-08-30T21:07:34.657Z">
 <meta property="article:author" content="Dan Jia">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://yoursite.com/archives/2020/08/">
+<link rel="canonical" href="http://yoursite.com/404">
 
 
 <script data-pjax class="page-configurations">
@@ -44,7 +48,8 @@
   };
 </script>
 
-  <title>Archive | Dan's room</title>
+  <title>404 Not Found | Dan's room
+</title>
   
 
 
@@ -248,77 +253,57 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner page posts-expand">
       
+  
+  
 
       
 
+    
+    
+    
+    <div class="post-block" lang="en">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">404 Not Found
+</h1>
+
+<div class="post-meta-container">
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">Um..! 2 posts in total. Keep on posting.</span>
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <center>
+Sorry, the page you visited does not exist or has been deleted.
+You can <a target="_blank" rel="noopener" href="https://danjia-shells.github.io">click here</a> return to the home page.
+
+</center>
+
+<blockquote class="blockquote-center">
+    Homepage
+</blockquote>
+
       </div>
-
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
+      
+      
     </div>
+    
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-08-30T21:42:48+02:00"
-              content="2020-08-30">
-          08-30
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/08/30/hello-world-1/" itemprop="url">
-            <span itemprop="name">hello-world</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-08-30T17:41:57+02:00"
-              content="2020-08-30">
-          08-30
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/08/30/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-
-    </div>
-  </div>
-  
-  
-  
-
-  
-
+    
+    
+    
 
 
       
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -438,6 +423,25 @@ document.addEventListener('pjax:success', () => {
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('#gitalk-container', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '620e5b6d7c17077cb8a6',
+      clientSecret: 'e1f4c9e0be198277a6a0aca95991b839de0bf313',
+      repo        : 'danjia-shells.github.io',
+      owner       : 'DanJia-shells',
+      admin       : ['shells'],
+      id          : '516a35d265e49707e113184afbcbb8c8',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
     </div>
 </body>
